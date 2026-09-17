@@ -1,5 +1,7 @@
-class CinemaHall:
+from typing import Any
 
+
+class CinemaHall:
     def __init__(self, number: int) -> None:
         self.number = number
 
@@ -7,7 +9,7 @@ class CinemaHall:
         self,
         movie_name: str,
         customers: list,
-        cleaning_staff: object
+        cleaning_staff: Any
     ) -> None:
         print(f'"{movie_name}" started in hall number {self.number}.')
 
