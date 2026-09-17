@@ -24,7 +24,7 @@ def cinema_visit(
             customer=customer
         )
 
-    cinema_hall = CinemaHall(hall_number=hall_number)
+    cinema_hall = CinemaHall(number=hall_number)
     cleaning_staff = Cleaner(name=cleaner)
 
     cinema_hall.movie_session(
